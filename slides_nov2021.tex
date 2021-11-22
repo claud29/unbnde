@@ -1,0 +1,447 @@
+%	Name			:: 	sthlm Beamer Theme  HEAVILY based on the hsrmbeamer theme (Benjamin Weiss)
+%	Author			:: 	Mark Hendry Olson (mark@hendryolson.com)
+%	Created			::	2013-07-31
+%	Updated	    	::	[[April]] 04, 2017 at 16:26:39
+%	Version			:: 	2.0.2
+%	Email			:: 	hendryolson@gmail.com
+%	Website			:: 	http://markolson.se
+%	Twitter			:: 	markolsonse
+%
+%	Instagram		:: 	markolsonse
+%	License			:: 	This file may be distributed and/or modified under the
+%					GNU Public License.
+%
+%	Description		::	This presentation is a demonstration of the sthlm beamer
+%					theme, which is HEAVILY based on the HSRM beamer theme created by Benjamin Weiss
+%					(benjamin.weiss@student.hs-rm.de), which can be found on GitHub
+%					<https://github.com/hsrmbeamertheme/hsrmbeamertheme>.  It also borrows heavily
+%					from the work of Matthias Vogelgesang, (https://bloerg.net) and his Metropolis Mtheme,
+%					<https://github.com/matze/mtheme>.
+%
+%	Theme			::	newPxFont
+%	Options			::	progressbar
+%					::	sectionpages
+%					::	numfooter
+%					::	fullfooter
+%					::	dovaligncolumns
+%					::	protectframetitle
+%					::	greybg
+%					::	cblock
+%					::	minimal
+
+
+%-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+%
+%        LOADING DOCUMENT
+%
+%-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+\documentclass[newPxFont,numfooter,sectionpages]{beamer}
+\usepackage[utf8]{inputenc}
+\usepackage[brazilian]{babel}
+\usetheme{sthlm}
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.14}
+\usepackage{cancel}
+\usepackage[brazilian=nohyphenation]{hyphsubst}
+%-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+%
+%	PRESENTATION INFORMATION
+%
+%-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+\title{ Núcleo Docente Estruturante}
+\subtitle{algum subtítulo}
+\date{\today}
+%\author{\texttt{-Autor- MarkOlson.SE}}
+\institute{ IL/LET/INGLÊS - UnB \par \small}
+
+\hypersetup{
+pdfauthor = {claudio: claud29@gmail.com},
+pdfsubject = {Beamer},
+pdfkeywords = {Beamer theme, sthlm},
+pdfmoddate= {D:\pdfdate},
+pdfcreator = {}
+}
+
+\begin{document}
+
+%-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+%
+%	TITLE PAGE
+%
+%-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+\justifying
+\maketitle
+
+%-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+%	FRAME: Theme Package Requirements
+%-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+\begingroup
+\setbeamercolor{normal text}{fg=\cnDarkGrey,bg=white}
+
+
+%-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+%
+%	TABLE OF CONTENTS: OVERVIEW
+%
+%-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+\section*{Overview}
+\begin{frame}{Overview}
+% For longer presentations use hideallsubsections option
+\tableofcontents[hideallsubsections]
+\end{frame} 
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Contexto}
+
+%-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+%	FRAME: CONTEXTO 1
+%-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+\begin{frame}{Contexto 1}
+O colegiado de licenciatura decidiu que discussões de assuntos não administrativos pertinentes ao curso podem e devem fazer parte da pauta da reunião de área. \par
+\vspace{1cm}
+
+Presumivelmente essas discussões devam informar/orientar o colegiado em suas decisões. \par
+\end{frame}
+
+
+%-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+%	FRAME: CONTEXTO 2
+%-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+\begin{frame}{Contexto 2}
+Nas últimas reuniões, vimos os resultados de pesquisa de opinião sobre a percepção de egressos sobre o curso de Letras Inglês. \par
+\vspace{1cm}
+Aventou-se que essa pesquisa deva ser ampliada e que o NDE deve formar 
+comissão nesse sentido. \par
+\end{frame}
+
+%-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+%	FRAME: CONTEXTO 3
+%-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+\begin{frame}{Contexto 3}
+Além disso, partindo de dados da pesquisa foram feitas ponderações sobre: 
+\begin{itemize}
+\justifying
+
+\item \emph{ caminhos possíveis/desejáveis para ações do colegiado (ajustes na reforma curricular); }
+\item \emph{ orientações pedagógicas e de conteúdo a serem seguidas nas disciplinas da grade para melhorar a percepção/relevância do curso na atividade profissional dos egresso; }
+\end{itemize}
+\end{frame}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Objetivo}
+%-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+%	FRAME: 
+%-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+\begin{frame}{Objetivos 1}
+\noindent
+\justifying
+
+Com base em pricípios gerais de pesquisa científica e em documentos do MEC/INEP, viemos expressar nossa preocupação com esse quadro. \par 
+
+\end{frame}
+
+%-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+%	FRAME: 
+%-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+\begin{frame}{Objetivos 2}
+    Defenderemos que:\par
+\begin{itemize}
+\justifying
+\item \emph{ discutir, em pauta, e votar sobre orientações para o curso fazem do colegiado de área uma instância propositiva e reduzem o NDE a instância auxiliar do colegiado; }
+\item \emph{ concretamente, as decisões tomadas em colegiado de licenciatura podem ter efeito sobre rumos do curso como um todo; }
+\item \emph{ instância administrativa não é foro adequado para discussão que envolvem questões complexas oriundas de dados de pesquisa;  }
+\item \emph{ por exemplo, a discussão poderia facilmente recair sobre questões metodológicas, o que não seria adequado.}
+
+
+\end{itemize}
+\end{frame}
+
+%-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+%	FRAME: 
+%-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+\begin{frame}{Objetivos 3}
+\noindent
+  Como alternativa, oferecemos uma visão onde as inquietações que
+  sobre a qualidade e futuro do curso encontram caminhos e
+  orientação em dados dos documentos do MEC/INEP. \par 
+
+\end{frame}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{NDE}
+%-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+%	FRAME: NDE 1
+%-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+\begin{frame}{NDE 1}
+    \begin{itemize}
+    \justifying
+        \item  Zelar pela qualidade da formação do profissional proposta no Projeto Pedagógico do Curso;
+    \end{itemize}
+\end{frame}
+
+%-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+%	FRAME: NDE 2
+%-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+\begin{frame}{NDE 2}
+    \begin{itemize}
+    \justifying
+        \item  Analisar os resultados das avaliações, internas e externas, e propor melhorias ao Conselho de Coordenação no sentido do aperfeiçoamento do Projeto Pedagógico de Cursos; 
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{NDE 3}
+  \begin{itemize}
+  %\justifying
+	\item Propor o desenvolvimento de atividades de pesquisa e extensão, oriundas de necessidades
+	  da graduação e da demanda social afinadas com as políticas públicas relativas às áreas
+	  de conhecimento do curso e/ou campo(s) de atuação dos profissionais formados por ele;
+  \end{itemize}
+\end{frame}
+
+\begin{frame}{NDE 4}
+  \begin{itemize}
+  \justifying
+	\item Zelar pelas Diretrizes Curriculares Nacionais para os cursos de graduação ou legislação
+	  correspondente.
+  \end{itemize}
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Estatística}
+
+\begin{frame}{Interpretação de Pesquisa}
+  \begin{itemize}
+  \justifying
+	\item o caminho entre a pesquisa científica e sua interpretação passa pela discussão de seus
+	  métodos;
+	\item não há exceção para os dados descritivos que o colegiado deseja discutir;
+	\item ainda menos quando se tem o propósito de fundamentar medidas administrativas;
+	\item alguns aspectos que saltam aos olhos \ldots
+  \end{itemize}
+\end{frame}
+
+
+%-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+%	FRAME: estabilidade da amostra
+%-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+\begin{frame}{Estabiblidade da Amostra}
+  \begin{itemize}
+  \justifying
+	\item a amostra observada deve permanecer rigorosamente igual durante
+	  todo o curso de pesquisa onde os dados são interpretados no final;
+	\item a variação na amostra invalida o trabalho;
+  \end{itemize}
+\end{frame}
+
+
+%-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+%	FRAME: 
+%-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+\begin{frame}{Método de Amostra}
+
+O método de escolha da amostra é importante e deve ser objeto de escrutínio;
+  \begin{itemize}
+  \justifying
+	\item Métodos aleatórios de escolha têm mais valor para interpretação;
+	\item  se um estudo parte de uma base já conhecida é  invalidado; 
+	\item Qual método de amostragem foi usado?
+	  \begin{itemize}
+	  	\item Amostragem Aleatória Simples sem reposição
+		\item  Amostragem Aleatória Simples com reposição
+		\item Amostragem Aleatória estratificada
+		\item outros;
+	  \end{itemize}
+  \end{itemize}
+\end{frame}
+
+%-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+%	FRAME: 
+%-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+\begin{frame}{Tamanho da Amostra}
+  %\begin{equation} 
+	$n  = \frac{N  \times z_ \alpha ^2 \times p \times q}
+	           {e^2 (N - 1) + z_\alpha ^2 \times p \times q}$
+ % \end{equation}
+
+  \begin{itemize}
+	\item n: tamanho da amostra
+	\item N: população estudada
+	\item z: parâmetro (dependente do nível de confiança desejado; para 95\% de confiança, z = 1,96
+	\item e: erro de estimação aceito: estabelecido em 5\%
+	\item p: probabilidade de ocorrência do evento estudado (0,5 quando essa probabilidade é desconhecida)
+	\item q: probabilidade de não ocorrência do evento estudado; 
+  \end{itemize}
+\end{frame}
+
+
+%-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+%	FRAME: 
+%-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+\begin{frame}{Valores em \(1\)}
+ \begin{align*} 
+  \visible {n  = \displaystyle \frac{600  \times 1,96 ^2 \times 0,5 \times 0,5}
+   {0,05^2 (600 - 1) + 1,96 ^2 \times 0,5 \times 0,5} }
+  \end{align*}
+ \begin{align*} 
+   \visible {n  = \displaystyle \frac{600  \times 3,8416 \times 0,25}
+   {0,025 (599) + 3,8416 \times 0,25 \times 0,5} }
+  \end{align*}
+
+  \begin{align*} 
+   \visible {n  = \displaystyle \frac{2304,96 \times 0,25}
+   {1,4975 + 0,964} }
+  \end{align*}
+  \begin{align*} 
+	\visible {n  = \displaystyle \frac{576,24}{2,4575} }
+  \end{align*}
+  \begin{align*} 
+	\visible {n  = \displaystyle {234,48} }
+  \end{align*}
+\end{frame}
+
+
+%-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+%	FRAME: 
+%-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+\begin{frame}{Mediana}
+  \begin{itemize}
+	\item A mediana é o menor valor abaixo do qual se encontram metade das observações.
+	\item A mediana trababalha com a probabilidade acumulada de 50\%. 
+	\item Qual a finalidade do uso da mediana no trabalho?
+  \end{itemize}
+\end{frame}
+
+\section{Conclusões}
+%-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+%	FRAME: 
+%-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+\begin{frame}{Conclusões}
+  \begin{itemize}
+  \justifying
+	\item Há um longo caminho entre a coleta de dados e a interpretação;
+	\item O colegiado de área não é a instância adequada para percorrer esse caminho;
+  	\begin{itemize}
+		\item as instâncias adequadas seriam eventos para apresentação/discussão de pesquisa etc;
+  	\end{itemize}
+	\item não percorrer esse caminho significa emprestar a informações que só dão base a
+	  intuições força de estudos estatísticos
+	\end{itemize}
+\end{frame}
+
+
+\begin{frame}{Conclusões}
+\begin{itemize}
+\justifying
+	\item entre as ponderações aventadas em colegiado toca a um debate antigo dentro do curso de letras: a divisão de espaço entre estudos linguisticos e pedagogia
+	\item com a finalidade do curso de licenciatura (formação de professores) sendo usada como motivo para que a ideia que todas as disciplinas do curso devam incluir um componente pedagógico; 	
+\end{itemize}
+\end{frame}
+
+
+\begin{frame}{Conclusões}
+\begin{itemize}
+\justifying
+	\item Essa discussão é indesejável no contexto de uma apresentação de números que não passaram pelo crivo de pares que saibam avaliar a possibiblidade de servirem para intetrpretação estatística; 
+	\item Além disso, a redução do curso à pedagogia impede a criação de novos perfis de egressos como tem sido discutida neste foro;
+	\item há documentos oficiais que declaram que deve haver harmonização entre as competências do curso;
+	\item como veremos a seguir, o que esses documentos recomendam vai no sentido contrário às discussões recentes em colegiado. 
+\end{itemize}
+\end{frame}
+
+\begin{frame}{BNCC 4.1.4 (EF)}
+\begin{alertblock}{Como fazer isso sem formação teórica?}
+	“\ldots \emph{compreender que determinadas crenças – como a de que há um “inglês melhor” para se ensinar, ou um “nível de proficiência” específico a ser alcançado pelo aluno – precisam ser relativizadas}. Isso exige do professor uma atitude de acolhimento e legitimação de diferentes formas de expressão na língua, como o uso de ain’t para fazer a negação, e não apenas formas “padrão” como isn’t ou aren’t. Em outras palavras, \emph{não queremos tratar esses usos como uma exceção, uma curiosidade local da língua, que foge ao “padrão” a ser seguido. Muito pelo contrário – é tratar usos locais do inglês e recursos linguísticos a eles relacionados na perspectiva de construção de um repertório linguístico, que deve ser analisado e disponibilizado ao aluno para dele fazer uso} observando sempre a condição de inteligibilidade na interação linguística..”
+	
+\end{alertblock}
+\end{frame}
+
+\section{Documentos do MEC}
+
+\begin{frame}{BNCC 4.1.4 (EF)}
+\begin{alertblock}{Como fazer isso sem formação teórica?}
+	“Itens lexicais e estruturas linguísticas utilizados, pronúncia, entonação e ritmo empregados, por exemplo, acrescidos de estratégias de compreensão (compreensão global, específica e detalhada), de acomodação (resolução de conflitos) e de negociação (solicitação de esclarecimentos e confirmações, uso de paráfrases e exemplificação) constituem aspectos relevantes na configuração e na exploração dessas práticas.”
+\end{alertblock}
+\end{frame}
+
+\begin{frame}{BNCC 5.1.1}
+\begin{alertblock}{LINGUAGENS E SUAS TECNOLOGIAS NO ENSINO MÉDIO: COMPETÊNCIAS ESPECÍFICAS E HABILIDADES }
+
+“Fazer uso do inglês como língua de comunicação global, \emph{levando em conta a multiplicidade e variedade de usos, usuários e funções} dessa língua no mundo contemporâneo.”
+\newline \newline 
+“\emph{compreensão e análise de situações e contextos de produção de sentidos} nas práticas sociais de linguagem, na recepção ou na produção de discursos, percebendo conflitos e relações de poder que caracterizam essas práticas.”
+\end{alertblock}
+\end{frame}
+
+\begin{frame}{RESOLUÇÃO Nº 2, DE 1º DE JULHO DE 2015}
+\begin{alertblock}{Define as Diretrizes Curriculares Nacionais para a formação inicial em nível superior}
+Art. 5. V - a articulação entre a teoria e a prática no processo de formação docente, fundada no domínio dos conhecimentos científicos e didáticos, contemplando a indissociabilidade entre ensino, pesquisa e extensão;
+
+\end{alertblock}
+\end{frame}
+
+\begin{frame}{RESOLUÇÃO Nº 2, DE 1º DE JULHO DE 2015}
+\begin{alertblock}{Define as Diretrizes Curriculares Nacionais para a formação inicial em nível superior}
+Art. 6. I - sólida formação teórica e interdisciplinar dos profissionais;
+\end{alertblock}
+\end{frame}
+
+\begin{frame}{RESOLUÇÃO Nº 2, DE 1º DE JULHO DE 2015}
+\begin{alertblock}{Define as Diretrizes Curriculares Nacionais para a formação inicial em nível superior}
+Art. 8. IV - dominar os conteúdos específicos e pedagógicos e as abordagens teórico metodológicas do seu ensino, de forma interdisciplinar ...
+
+\end{alertblock}
+\end{frame}
+
+\begin{frame}{RESOLUÇÃO Nº 2, DE 1º DE JULHO DE 2015}
+\begin{alertblock}{Define as Diretrizes Curriculares Nacionais para a formação inicial em nível superior}
+Art. 9. 3º … elevado padrão acadêmico, científico e tecnológico e cultural.
+
+\end{alertblock}
+\end{frame}
+\begin{frame}{RESOLUÇÃO Nº 2, DE 1º DE JULHO DE 2015}
+\begin{alertblock}{Define as Diretrizes Curriculares Nacionais para a formação inicial em nível superior}
+Art. 10. II - produção e difusão do conhecimento científico-tecnológico das áreas específicas e do campo educacional.
+
+\end{alertblock}
+\end{frame}
+
+\begin{frame}{RESOLUÇÃO Nº 2, DE 1º DE JULHO DE 2015}
+\begin{alertblock}{Define as Diretrizes Curriculares Nacionais para a formação inicial em nível superior}
+Art. 13. 2º conteúdos específicos da respectiva área de conhecimento ou interdisciplinares, seus fundamentos e metodologias, \ldots
+
+\end{alertblock}
+\end{frame}
+
+\section{Relatório do ENADE}
+
+\begin{frame}{ENADE Relatório Síntese Letras-Inglês(Licenciatura) 2017}
+\begin{alertblock}{Egressos de Letras e Variação Linguística pg 152}
+novamente os \emph{participantes demonstraram muita dificuldade para reconhecer o fenômeno}. Muitos só conseguiram dissertar sobre variação linguística em relação à língua portuguesa. Outros mencionaram o preconceito linguístico, mas nas respostas, eles mesmos demonstraram preconceitos. (\ldots) Alguns chegaram a argumentar que o ensino de inglês deveria contar com todas as variantes\ldots
+\end{alertblock}
+\end{frame}
+
+\begin{frame}{ENADE Relatório Síntese Letras-Inglês(Licenciatura) 2017}
+\begin{alertblock}{Recomendações pg 154}
+dois conteúdos deveriam ser mais bem explorados: a diversidade linguística do inglês e seus aspectos geopolíticos, assim como os aspectos fonológicos, morfossintáticos e léxico-gramaticais relacionados a essas variações.
+\end{alertblock}
+\end{frame}
+
+\begin{frame}{ENADE Relatório Síntese Letras-Inglês(Licenciatura) 2017}
+\begin{alertblock}{Recomendações pg 158}
+A maioria dos estudantes demonstrou não estar atento à diversidade social e linguística nos diferentes contextos e práticas sociais. \emph{Grande parte dos estudantes não se mostrou reflexiva nem crítica sobre o uso da língua}. Vivencia-se um momento de reformulação das licenciaturas, e o resultado do Enade/2017 deveria ser considerado para embasar essa reforma. As competências e os conteúdos avaliados neste exame demonstraram que os cursos de Letras precisam realmente repensar o trabalho que está sendo realizado, procurando incluir no currículo discussões sobre os temas abordados, tais como \ldots a diversidade linguística e cultural.
+\end{alertblock}
+\end{frame}
+
+
+
+\end{document}
