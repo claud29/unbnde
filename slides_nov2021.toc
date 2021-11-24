@@ -2,7 +2,7 @@
 \beamer@sectionintoc {2}{Contexto}{3}{0}{1}
 \beamer@sectionintoc {3}{Objetivo}{7}{0}{2}
 \beamer@sectionintoc {4}{NDE}{11}{0}{3}
-\beamer@sectionintoc {5}{Estat\IeC {\'\i }stica}{16}{0}{4}
-\beamer@sectionintoc {6}{Conclus\IeC {\~o}es}{23}{0}{5}
-\beamer@sectionintoc {7}{Documentos do MEC}{28}{0}{6}
-\beamer@sectionintoc {8}{Relat\IeC {\'o}rio do ENADE}{37}{0}{7}
+\beamer@sectionintoc {5}{Estat\IeC {\'\i }stica}{17}{0}{4}
+\beamer@sectionintoc {6}{Conclus\IeC {\~o}es}{24}{0}{5}
+\beamer@sectionintoc {7}{Documentos do MEC}{29}{0}{6}
+\beamer@sectionintoc {8}{Relat\IeC {\'o}rio do ENADE}{38}{0}{7}
